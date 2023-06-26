@@ -1,0 +1,77 @@
+
+body{
+    background-color: blueviolet
+    
+}
+.grid-cabecalho{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center; 
+    color: rgb(255, 253, 253);
+ }
+ #nomedosite{
+  font-family: cursive;
+  font-size: xx-large;
+  width: 25vw;
+  margin-left: 1cm;
+ 
+ }
+.barra-de-nav{
+    width: 75vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: rgb(255, 229, 229);
+    text-decoration: none;
+   
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    list-style: none;
+}
+a{
+color: rgb(17, 17, 17);
+text-decoration:  none ;
+}
+#subb{
+    color: white; font-size: 3vw;
+}
+.conteudo{
+    background-color: whitesmoke;
+    width: 99vw; 
+    color: rgb(34, 32, 32);
+    
+}
+#texto{
+    width: 70vw;
+    text-align: justify;
+    line-height: 30px;
+}
+#texto-equipe{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    
+}
+#equipe{
+    background-color: rgb(231, 186, 252);
+    border: solid rgb(15, 15, 15);
+    height: 40vh;
+    width: 17vw;
+    text-align: left;
+    
+}
+h2{
+ text-align: center;
+ padding-top: 2%;
+}
+#apresentacao{
+    flex-wrap: wrap;
+    text-align: center;
+    padding-top: 17vh;
+    
+}

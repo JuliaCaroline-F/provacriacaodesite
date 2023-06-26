@@ -1,0 +1,142 @@
+.grid-cabecalho{
+    margin: 0%;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    align-items: center;
+    
+   
+}
+#logo1 {
+    width: 10vw;
+}
+#pesquisa{
+    width: 12vw;
+}
+#notificacao{
+    width: 10vw;
+}
+ 
+#cabecalho{
+    display: flex;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 3vw;
+   
+}
+#subtexto{
+    background-color: rgb(191, 69, 248);
+    margin: 0%;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 1vh;
+    align-items: center;
+    border-bottom: solid #353535 1px;border-top: solid #353535 1px; 
+    
+}
+
+
+ul, 
+li, 
+p{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: row;
+    
+}
+a{
+    text-decoration: none;
+}
+#subb{
+    color: darkorchid; 
+    font-size: 1em;
+    text-align: center;
+    font-family: cursive;
+    padding-left: 2vw;
+}
+#caf{
+   display: flex;
+   justify-content: space-between;
+   flex-direction: row;
+   background-color: rgb(231, 186, 252);
+   align-items: center; 
+   color: black;
+   height: 10vh;
+  align-content: center;
+    border-bottom: solid #353535 1px;
+  
+}
+.barra-de-nav{
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none; 
+    padding-right: 2vw;
+
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    font-style: normal;
+    
+
+}
+a{
+    color: black ;
+}
+#fanartscatalogo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 50px;
+
+
+}
+#fanartsimgs{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  
+}
+#f{
+    background-color: rgb(253, 243, 225);
+    width: 40vw;
+    height: 20vh;
+    border: solid 1px #999;
+    margin: 1px; 
+    align-items: center;
+
+}
+#resenhasimgs{
+    display: flex;
+    flex-direction: row;
+  
+}
+
+#resenhascatalogo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 50px;
+    
+}
+li{
+    margin: 1vw;
+    font-size:13px;
+}
+
+   
